@@ -1,0 +1,375 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+    background-color: #bffce6;
+}
+#loginButton {
+    background-color: #a57e56;
+    border-radius: 20px;
+    color: #65dcb4;
+    border-color: #65dcb4;
+    border-width: 5px;
+    font-size: large;
+    border-style: groove;
+}
+#loginForm {
+    gap: 20px;
+    background-color: #6effac;
+    color: #a57e56;
+    width: 30vw;
+    min-height: 30vh;
+    border-radius: 30px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #a57e56;
+    grid-row: 2;
+    margin: auto;
+}
+#loginSubmission {
+    background-color: #bffce6;
+    border-radius: 20px;
+    padding: 10px;
+    border-style: dotted;
+    border-color: #a57e56;
+    border-width: 10px;
+    min-width: 26vw;
+    min-height: 28vh;
+}
+.formHeader {
+    text-align: center;
+    text-decoration: underline;
+    align-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: auto;
+}
+#userLogin {
+    text-align: center;
+}
+#userGrid {
+    grid-row: 1/4;
+    display: grid;
+}
+#userDiv {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    border-style: dotted;
+    border-color: #a57e56;
+    border-width: 10px;
+}
+#userToolBar {
+    grid-row: 1;
+    background-color: #a57e56;
+    border-radius: 20px;
+    border-color: #6effac;
+    border-width: 5px;
+    border-style: dashed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2px;
+}
+#userBody {
+    grid-row: 2;
+    background-color: #6effac;
+    border-radius: 20px;
+    border-color: #a57e56;
+    border-width: 5px;
+    border-style: dashed;
+}
+#userFooter {
+    grid-row: 3;
+    background-color: #a57e56;
+    border-radius: 20px;
+    border-color: #6effac;
+    border-width: 5px;
+    border-style: dashed;
+}
+#claimsBody {
+    grid-row: 2;
+    background-color: #6effac;
+    border-radius: 20px;
+    border-color: #a57e56;
+    border-width: 5px;
+    border-style: dashed;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+#claimsTableTop {
+    grid-row: 1;
+    background-color: #6effac;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+}
+#claimsTableTop button {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    background-color: #a57e56;
+    border-radius: 30px;
+    color: #bffce6
+}
+#claimsNewButton {
+    grid-column: 1;
+    background-color: blue;
+}
+#claimsViewButton {
+    grid-column: 2;
+    background-color: blue;
+}
+#claimsEditButton {
+    grid-column: 3;
+    background-color: blue;
+}
+#claimsTableBottom {
+    grid-row: 2;
+    background-color: #bffce6;
+    border-radius: 20px;
+}
+#viewClaimForm {
+	display: grid;
+	grid-template-rows: 10% 90%;
+	max-width: 60vw;
+	min-height: 60vh;
+    background-color: #6effac;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin: auto;	
+}
+#vCFormHeader {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row: 1;
+}
+#vCFHPendingButton {
+	grid-column: 1;
+    background-color: #a57e56;
+    border-radius: 20px;
+    color: #65dcb4;
+    border-color: #65dcb4;
+    border-width: 5px;
+    font-size: large;
+    border-style: groove;
+}
+#vCFHCompleteButton {
+	grid-column: 2;
+    background-color: #a57e56;
+    border-radius: 20px;
+    color: #65dcb4;
+    border-color: #65dcb4;
+    border-width: 5px;
+    font-size: large;
+    border-style: groove;
+}
+#vCFormBody {
+    display: grid;
+    grid-template-rows: 10% 90%;
+	grid-row: 2;
+	background-color: white;
+    border-radius: 20px;
+}
+#vCFormBodyTitle {
+    grid-row: 1;
+    background-color: white;
+	margin: auto;
+	border-radius: 5px;
+}
+#vCFormBodyTable {
+    grid-row: 2;
+    background-color: #bffce6;
+    align-content: center;
+    border: #6effac;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+#vCFormBodyTableTable {
+	border: #a57e56;
+	border-width: 2px;
+	border-style: solid;
+	min-width: 100%;
+	min-height: 100%;
+    border-radius: 20px;
+}
+#vCFormBodyTableTable th, #vCFormBodyTableTable td {
+	border: #a57e56;
+	border-width: 2px;
+	border-style: solid;
+	margin: auto;
+}
+#newClaimForm {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 2fr;
+	max-width: 60vw;
+	min-height: 60vh;
+    background-color: #6effac;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin: auto;
+}
+#newClaimForm > * {
+	background-color: #a57e56;
+	color: #bffce6;
+	text-align: center;
+    border-radius: 20px;
+    max-width: 100%;
+    min-height: 100%;
+}
+#nCFormHeader {
+	grid-column: 1/6;
+	grid-row: 1;
+	margin-top: 5vh;
+}
+#nCSubmitButton {
+	grid-row: 2;
+	grid-column: 3;
+	background-color: #bffce6;
+	color: #a57e56;
+}
+#newClaimFormSelector {
+	grid-column: 2;
+	grid-row: 2;
+}
+#newClaimFormAmount {
+	grid-column: 4;
+	grid-row: 2;
+}
+#newClaimFormDesc {
+	grid-column: 1/6;
+	grid-row: 3;
+}
+#claimsTableHeader, #homePageBodyHeader, #homePageBodyParagraph {
+	text-align: center;
+	color: #a57e56;
+}
+#claimsFooter {
+    grid-row: 3;
+    background-color: #a57e56;
+    border-radius: 20px;
+    border-color: #6effac;
+    border-width: 5px;
+    border-style: dashed;
+}
+#homeButton {
+    grid-column: 1;
+}
+#button2 {
+    grid-column: 2;
+}
+#button3 {
+    grid-column: 3;
+}
+#logoutButton {
+    grid-column: 4;
+}
+#userToolBar button {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-color: #6effac;
+    border-radius: 30px;
+    font-size: larger;
+}
+#logged {
+	color:white;
+	margin:auto;
+	size:larger;
+}
+#userInfoBody {
+    grid-row: 2;
+    background-color: #6effac;
+    border-radius: 20px;
+    border-color: #a57e56;
+    border-width: 5px;
+    border-style: dashed;
+}
+#userInfoBodyMain {
+	background-color: #bffce6;
+	min-width: 100%;
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr 7fr;
+}
+#userInfoBodyMainFirst, #userInfoBodyMainLast, #userInfoBodyMainUser, #userInfoBodyMainPass {
+	grid-row: 2;
+    border-color: #a57e56;
+    border-width: 5px;
+    border-style: solid;
+}
+#userInfoFooter {
+    grid-row: 3;
+    background-color: #a57e56;
+    border-radius: 20px;
+    border-color: #6effac;
+    border-width: 5px;
+    border-style: dashed;
+}
+#managerBody {
+	background-color: #6effac;
+	grid-row: 2;
+	display: grid;
+	grid-template-rows: 1fr 1fr 6fr;
+}
+#userAccountButton {
+	grid-column: 2;
+}
+#userAccountButton, #accountClaimButton, #manViewAll, #manViewByID, #manAODAll, #manAODID {
+    background-color: #a57e56;
+    border-radius: 20px;
+    color: #65dcb4;
+    border-color: #65dcb4;
+    border-width: 5px;
+    font-size: large;
+    border-style: groove;
+}
+#manViewAll {
+	grid-column: 1;
+}
+#manViewByID {
+	grid-column: 2;
+}
+#manAODAll {
+	grid-column: 3;
+}
+#manAODID {
+	grid-column: 4;
+}
+#accountClaimButton {
+	grid-column: 1;
+}
+#claimManagerView {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#managerAccountsTabStuff {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-row: 2;
+}
+#managerblankTable {
+    background-color: #bffce6;
+    align-content: center;
+    border: #6effac;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+ }
+#managerblankTableTable {
+	border: #a57e56;
+	border-width: 2px;
+	border-style: solid;
+	min-width: 100%;
+	min-height: 100%;
+    border-radius: 20px;
+}
+#managerblankTableTable th, #managerblankTableTable td {
+	border: #a57e56;
+	border-width: 2px;
+	border-style: solid;
+	margin: auto;
+}
